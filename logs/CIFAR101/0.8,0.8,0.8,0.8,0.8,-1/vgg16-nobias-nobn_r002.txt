@@ -1,0 +1,102 @@
+Default training path used
+Default testing path used
+Loading from: ../checkpoints/CIFAR101/0.8,0.8,0.8,0.8,0.8,-1/vgg16-nobias-nobn_r002.pt
+Dataset: CIFAR101
+#######################################################################
+Finished Loading Checkpoint
+Epoch is:  14
+Accuracy is:  64.0
+Errors are:  36.0
+Previous Masks keys:  dict_keys([1, 3, 6, 8, 11, 13, 15, 18, 20, 22, 25, 27, 29, 33, 36])
+All task Masks keys:  dict_keys([0, 1, 2])
+Conns keys:  dict_keys([0, 1])
+Conn_aves keys:  dict_keys([0, 1])
+Dataset2idx is:  {'CIFAR10': 1, 'CIFAR100': 2, 'CIFAR101': 3}
+#######################################################################
+current index is: 3
+Manager created
+Calculate Connectivities
+----------------------------------
+Collecting activations from layers
+Collecting Activations for Layer 1
+Collecting Activations for Layer 3
+----------------------------------
+Begin Execution of conn estimation
+----------------------------------
+Collecting activations from layers
+Collecting Activations for Layer 3
+Collecting Activations for Layer 6
+----------------------------------
+Begin Execution of conn estimation
+----------------------------------
+Collecting activations from layers
+Collecting Activations for Layer 6
+Collecting Activations for Layer 8
+----------------------------------
+Begin Execution of conn estimation
+----------------------------------
+Collecting activations from layers
+Collecting Activations for Layer 8
+Collecting Activations for Layer 11
+----------------------------------
+Begin Execution of conn estimation
+----------------------------------
+Collecting activations from layers
+Collecting Activations for Layer 11
+Collecting Activations for Layer 13
+----------------------------------
+Begin Execution of conn estimation
+----------------------------------
+Collecting activations from layers
+Collecting Activations for Layer 13
+Collecting Activations for Layer 15
+----------------------------------
+Begin Execution of conn estimation
+----------------------------------
+Collecting activations from layers
+Collecting Activations for Layer 15
+Collecting Activations for Layer 18
+----------------------------------
+Begin Execution of conn estimation
+----------------------------------
+Collecting activations from layers
+Collecting Activations for Layer 18
+Collecting Activations for Layer 20
+----------------------------------
+Begin Execution of conn estimation
+----------------------------------
+Collecting activations from layers
+Collecting Activations for Layer 20
+Collecting Activations for Layer 22
+----------------------------------
+Begin Execution of conn estimation
+----------------------------------
+Collecting activations from layers
+Collecting Activations for Layer 22
+Collecting Activations for Layer 25
+----------------------------------
+Begin Execution of conn estimation
+----------------------------------
+Collecting activations from layers
+Collecting Activations for Layer 25
+Collecting Activations for Layer 27
+----------------------------------
+Begin Execution of conn estimation
+----------------------------------
+Collecting activations from layers
+Collecting Activations for Layer 27
+Collecting Activations for Layer 29
+----------------------------------
+Begin Execution of conn estimation
+----------------------------------
+Collecting activations from layers
+Collecting Activations for Layer 29
+Collecting Activations for Layer 33
+----------------------------------
+Begin Execution of conn estimation
+----------------------------------
+Collecting activations from layers
+Collecting Activations for Layer 33
+Collecting Activations for Layer 36
+----------------------------------
+Begin Execution of conn estimation

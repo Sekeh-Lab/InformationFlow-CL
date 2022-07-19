@@ -1,0 +1,24 @@
+Default training path used
+Default testing path used
+Loading from: ../checkpoints/CIFAR10/0.8,0.8,0.8,0.8,0.8,-1/vgg16-nobias-nobn_r002_pruned_final.pt
+Dataset: CIFAR10
+#######################################################################
+Finished Loading Checkpoint
+Epoch is:  8
+Accuracy is:  78.52
+Errors are:  21.480000000000004
+Previous Masks keys:  dict_keys([1, 3, 6, 8, 11, 13, 15, 18, 20, 22, 25, 27, 29, 33, 36])
+All task Masks keys:  dict_keys([0])
+Conns keys:  dict_keys([0])
+Conn_aves keys:  dict_keys([0])
+Dataset2idx is:  {'CIFAR10': 1}
+#######################################################################
+current index is: 1
+Manager created
+Evaluating Accuracy
+args.preprune: 0
+Using ckpt dataset2idx: 1
+Current idx: 1
+Applying dataset mask for dataset:  1
+Performing eval...
+Accuracy is:  78.52

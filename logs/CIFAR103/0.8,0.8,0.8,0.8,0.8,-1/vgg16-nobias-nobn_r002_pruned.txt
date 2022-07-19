@@ -1,0 +1,187 @@
+Default training path used
+Default testing path used
+Loading from: ../checkpoints/CIFAR103/0.8,0.8,0.8,0.8,0.8,-1/vgg16-nobias-nobn_r002.pt
+Dataset: CIFAR103
+#######################################################################
+Finished Loading Checkpoint
+Epoch is:  16
+Accuracy is:  56.10000000000001
+Errors are:  43.89999999999999
+Previous Masks keys:  dict_keys([1, 3, 6, 8, 11, 13, 15, 18, 20, 22, 25, 27, 29, 33, 36])
+All task Masks keys:  dict_keys([0, 1, 2, 3, 4])
+Conns keys:  dict_keys([0, 1, 2, 3, 4])
+Conn_aves keys:  dict_keys([0, 1, 2, 3, 4])
+Dataset2idx is:  {'CIFAR10': 1, 'CIFAR100': 2, 'CIFAR101': 3, 'CIFAR102': 4, 'CIFAR103': 5}
+#######################################################################
+current index is: 5
+Manager created
+Pruning
+Prune percent is:  0.8
+Freeze percent is:  0.02
+Number of layers to freeze:  4
+Freezing order:  random
+Pre-prune eval:
+Current idx: 5
+Applying dataset mask for dataset:  5
+Performing eval...
+Accuracy is:  56.10000000000001
+Pruning for dataset idx: 5
+Pruning each layer by removing 80.00% of values
+Layer #1, pruned 538/673 (79.94%) (Total in layer: 1728)
+Layer #3, pruned 12079/15099 (80.00%) (Total in layer: 36864)
+Layer #6, pruned 22392/27990 (80.00%) (Total in layer: 73728)
+Layer #8, pruned 48318/60398 (80.00%) (Total in layer: 147456)
+Layer #11, pruned 89569/111961 (80.00%) (Total in layer: 294912)
+Layer #13, pruned 193274/241592 (80.00%) (Total in layer: 589824)
+Layer #15, pruned 183731/235552 (78.00%) (Total in layer: 589824)
+Layer #18, pruned 367461/471104 (78.00%) (Total in layer: 1179648)
+Layer #20, pruned 734923/942209 (78.00%) (Total in layer: 2359296)
+Layer #22, pruned 734923/918654 (80.00%) (Total in layer: 2359296)
+Layer #25, pruned 753767/942209 (80.00%) (Total in layer: 2359296)
+Layer #27, pruned 753767/942209 (80.00%) (Total in layer: 2359296)
+Layer #29, pruned 753767/942209 (80.00%) (Total in layer: 2359296)
+Layer #33, pruned 77626/99521 (78.00%) (Total in layer: 262144)
+Layer #36, pruned 85899/107374 (80.00%) (Total in layer: 262144)
+
+FOR TASK %d: 5
+Layer #1: Frozen 135/1728 (7.81%)
+Layer #3: Frozen 3020/36864 (8.19%)
+Layer #6: Frozen 5598/73728 (7.59%)
+Layer #8: Frozen 12080/147456 (8.19%)
+Layer #11: Frozen 22392/294912 (7.59%)
+Layer #13: Frozen 48318/589824 (8.19%)
+Layer #15: Frozen 51821/589824 (8.79%)
+Layer #18: Frozen 103643/1179648 (8.79%)
+Layer #20: Frozen 207286/2359296 (8.79%)
+Layer #22: Frozen 183731/2359296 (7.79%)
+Layer #25: Frozen 188442/2359296 (7.99%)
+Layer #27: Frozen 188442/2359296 (7.99%)
+Layer #29: Frozen 188442/2359296 (7.99%)
+Layer #33: Frozen 21895/262144 (8.35%)
+Layer #36: Frozen 21475/262144 (8.19%)
+Checking...
+Layer #1: Pruned 538/1728 (31.13%)
+Layer #3: Pruned 12079/36864 (32.77%)
+Layer #6: Pruned 22392/73728 (30.37%)
+Layer #8: Pruned 48318/147456 (32.77%)
+Layer #11: Pruned 89569/294912 (30.37%)
+Layer #13: Pruned 193274/589824 (32.77%)
+Layer #15: Pruned 183731/589824 (31.15%)
+Layer #18: Pruned 367461/1179648 (31.15%)
+Layer #20: Pruned 734923/2359296 (31.15%)
+Layer #22: Pruned 734923/2359296 (31.15%)
+Layer #25: Pruned 753767/2359296 (31.95%)
+Layer #27: Pruned 753767/2359296 (31.95%)
+Layer #29: Pruned 753767/2359296 (31.95%)
+Layer #33: Pruned 77626/262144 (29.61%)
+Layer #36: Pruned 85899/262144 (32.77%)
+
+Post-prune eval:
+Current idx: 5
+Applying dataset mask for dataset:  5
+Performing eval...
+Accuracy is:  54.35
+Doing some extra finetuning...
+Epoch:  0
+Accuracy of the network on the 10000 test images: 54.850000 %
+
+Current idx: 5
+Applying dataset mask for dataset:  5
+Performing eval...
+Accuracy is:  54.85
+Best model so far, Accuracy: 54.35% -> 54.85%
+Epoch:  1
+Accuracy of the network on the 10000 test images: 54.850000 %
+
+Current idx: 5
+Applying dataset mask for dataset:  5
+Performing eval...
+Accuracy is:  54.85
+Epoch:  2
+Accuracy of the network on the 10000 test images: 54.600000 %
+
+Current idx: 5
+Applying dataset mask for dataset:  5
+Performing eval...
+Accuracy is:  54.6
+Epoch:  3
+Accuracy of the network on the 10000 test images: 54.700000 %
+
+Current idx: 5
+Applying dataset mask for dataset:  5
+Performing eval...
+Accuracy is:  54.7
+Epoch:  4
+Accuracy of the network on the 10000 test images: 54.850000 %
+
+Current idx: 5
+Applying dataset mask for dataset:  5
+Performing eval...
+Accuracy is:  54.85
+Epoch:  5
+Accuracy of the network on the 10000 test images: 54.850000 %
+
+Current idx: 5
+Applying dataset mask for dataset:  5
+Performing eval...
+Accuracy is:  54.85
+Epoch:  6
+Accuracy of the network on the 10000 test images: 55.300000 %
+
+Current idx: 5
+Applying dataset mask for dataset:  5
+Performing eval...
+Accuracy is:  55.300000000000004
+Best model so far, Accuracy: 54.85% -> 55.30%
+Epoch:  7
+Accuracy of the network on the 10000 test images: 55.400000 %
+
+Current idx: 5
+Applying dataset mask for dataset:  5
+Performing eval...
+Accuracy is:  55.400000000000006
+Best model so far, Accuracy: 55.30% -> 55.40%
+Epoch:  8
+Accuracy of the network on the 10000 test images: 55.100000 %
+
+Current idx: 5
+Applying dataset mask for dataset:  5
+Performing eval...
+Accuracy is:  55.1
+Epoch:  9
+Accuracy of the network on the 10000 test images: 55.200000 %
+
+Current idx: 5
+Applying dataset mask for dataset:  5
+Performing eval...
+Accuracy is:  55.2
+Finished finetuning...
+Best error/accuracy: 44.60%, 55.40%
+----------------
+----------------
+Pruning summary:
+Checking...
+Layer #1: Pruned 538/1728 (31.13%)
+Layer #3: Pruned 12079/36864 (32.77%)
+Layer #6: Pruned 22392/73728 (30.37%)
+Layer #8: Pruned 48318/147456 (32.77%)
+Layer #11: Pruned 89569/294912 (30.37%)
+Layer #13: Pruned 193274/589824 (32.77%)
+Layer #15: Pruned 183731/589824 (31.15%)
+Layer #18: Pruned 367461/1179648 (31.15%)
+Layer #20: Pruned 734923/2359296 (31.15%)
+Layer #22: Pruned 734923/2359296 (31.15%)
+Layer #25: Pruned 753767/2359296 (31.95%)
+Layer #27: Pruned 753767/2359296 (31.95%)
+Layer #29: Pruned 753767/2359296 (31.95%)
+Layer #33: Pruned 77626/262144 (29.61%)
+Layer #36: Pruned 85899/262144 (32.77%)
+----------------
+
+
+
+
+
+
+
+
