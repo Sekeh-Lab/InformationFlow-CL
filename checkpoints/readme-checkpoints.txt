@@ -1,0 +1,1 @@
+This directory needs to be populated with the checkpoint directories/files provided via external link in the main readme file prior to code execution. 
