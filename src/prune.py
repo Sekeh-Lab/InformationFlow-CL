@@ -263,7 +263,7 @@ class SparsePruner(object):
         random_idxs = np.copy(max_n_keys)
         np.random.shuffle(random_idxs)
         
-        ### Apply freezin if the index is selected, otherwise prune at the baseline rate.
+        ### Apply freezing if the index is selected based on connectivity, otherwise prune at the baseline rate.
         if self.freeze_order == "top" and (layer_idx in max_n_keys[-self.num_freeze_layers:]):
             prune_rank = round((self.prune_perc - self.freeze_perc) * abs_tensor.numel())
         elif self.freeze_order == "bottom" and (layer_idx in max_n_keys[:self.num_freeze_layers]):
